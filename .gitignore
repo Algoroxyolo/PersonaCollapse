@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Experiment outputs
+*.db
+*.json.bak
+results_*.json
+csv_exports/
+self_introduction_results/
+clustering_analysis_results_*/
+budget_*.txt
+
+# Environment
+.env
+.venv/
+venv/
+keys.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,116 @@
+{
+    "name": "BFI",
+    "questions": {
+        "1": "Is talkative.",
+        "2": "Tends to find fault with others.",
+        "3": "Does a thorough job.",
+        "4": "Is depressed, blue.",
+        "5": "Is original, comes up with new ideas.",
+        "6": "Is reserved.",
+        "7": "Is helpful and unselfish with others.",
+        "8": "Can be somewhat careless.",
+        "9": "Is relaxed, handles stress well.",
+        "10": "Is curious about many different things.",
+        "11": "Is full of energy.",
+        "12": "Starts quarrels with others.",
+        "13": "Is a reliable worker.",
+        "14": "Can be tense.",
+        "15": "Is ingenious, a deep thinker.",
+        "16": "Generates a lot of enthusiasm.",
+        "17": "Has a forgiving nature.",
+        "18": "Tends to be disorganized.",
+        "19": "Worries a lot.",
+        "20": "Has an active imagination.",
+        "21": "Tends to be quiet.",
+        "22": "Is generally trusting.",
+        "23": "Tends to be lazy.",
+        "24": "Is emotionally stable, not easily upset.",
+        "25": "Is inventive.",
+        "26": "Has an assertive personality.",
+        "27": "Can be cold and aloof.",
+        "28": "Perseveres until the task is finished.",
+        "29": "Can be moody.",
+        "30": "Values artistic, aesthetic experiences.",
+        "31": "Is sometimes shy, inhibited.",
+        "32": "Is considerate and kind to almost everyone.",
+        "33": "Does things efficiently.",
+        "34": "Remains calm in tense situations.",
+        "35": "Prefers work that is routine.",
+        "36": "Is outgoing, sociable.",
+        "37": "Is sometimes rude to others.",
+        "38": "Makes plans and follows through with them.",
+        "39": "Gets nervous easily.",
+        "40": "Likes to reflect, play with ideas.",
+        "41": "Has few artistic interests.",
+        "42": "Likes to cooperate with others.",
+        "43": "Is easily distracted.",
+        "44": "Is sophisticated in art, music, or literature."
+    },
+    "inner_setting": "You are a helpful assistant who can only reply numbers from 1 to 5 in every statement. Format: \"statement index: score\".",
+    "prompt": "You can only reply numbers from 1 to 5 in the following statements. Here are a number of characteristics that may or may not apply to you. Please indicate the extent to which you agree or disagree with that statement. 1 denotes 'strongly disagree', 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 4 denotes 'little agree', 5 denotes 'strongly agree'. Here are the statements, score them one by one and reply in json format, the key is question number and value is your score:",
+    "scale": 6,
+    "compute_mode": "AVG",
+    "reverse": [6,21,31,2,12,27,37,8,18,23,43,9,24,34,35,41],
+    "categories": [
+        {
+            "cat_name": "Extraversion",
+            "cat_questions": [1, 6, 11, 16, 21, 26, 31, 36],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.25,
+                    "std": 0.9,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Agreeableness",
+            "cat_questions": [2, 7, 12, 17, 22, 27, 32, 37, 42],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.64,
+                    "std": 0.72,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Conscientiousness",
+            "cat_questions": [3, 8, 13, 18, 23, 28, 33, 38, 43],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.45,
+                    "std": 0.73,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Neuroticism",
+            "cat_questions": [4, 9, 14, 19, 24, 29, 34, 39],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.32,
+                    "std": 0.82,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Openness",
+            "cat_questions": [5, 10, 15, 20, 25, 30, 35, 40, 41, 44],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.92,
+                    "std": 0.66,
+                    "n": 6076
+                }
+            ]
+        }
+    ]
+}

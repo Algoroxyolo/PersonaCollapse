@@ -1,0 +1,22 @@
+openai>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.60.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Optional: token counting for budget estimation
+tiktoken>=0.5.0
+
+# Optional: AWS Bedrock provider
+boto3>=1.28.0
+
+# Optional: PRDC metrics (precision, recall, density, coverage)
+prdc>=0.1.0
+
+# Optional: hyperspherical uniformity metric
+torch>=2.0.0
+
+# Optional: visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
