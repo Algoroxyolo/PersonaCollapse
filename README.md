@@ -1,6 +1,6 @@
 # Persona Collapse
 
-Code and data for the paper on evaluating persona diversity in large language models.
+Code and data for the paper "The Chameleon’s Limit: Investigating Persona Collapse and Homogenization in Large Language Models".
 
 This codebase supports three experiments:
 
@@ -236,10 +236,12 @@ See `analysis/README.md` for the full list of analysis scripts and detailed docu
 If you use this code or data, please cite our paper:
 
 ```bibtex
-@article{persona-collapse,
-  title={Persona Collapse},
-  author={...},
-  year={2026}
+@article{xiao2026collapse,
+  title={The Chameleon’s Limit: Investigating Persona Collapse and Homogenization in Large Language Models},
+  author={Yunze Xiao, Vivienne Zhang, Chenghao Yang, Ningshan Ma, Weihao Xuan, Jen-tse Huang},
+  journal={arXiv preprint arXiv:[to appear]},
+  year={2026},
+  note={arXiv ID pending}
 }
 ```
 
